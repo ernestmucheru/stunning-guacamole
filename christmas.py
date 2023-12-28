@@ -1,3 +1,1 @@
-greetings = 'Hello World'
-name = "Steve"
-print(greetings, name)
+print('Hello, world.'.upper() + ' ' +'     I am new to Python.     '.strip())
