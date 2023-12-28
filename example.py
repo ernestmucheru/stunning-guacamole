@@ -13,11 +13,17 @@
 # print(random_number)
 
 # Circumference calculation
-import random
-x = 3.14
-r = random.randint(7,14)
-c = 2 * x * r
+# import random
+# x = 3.14
+# r = random.randint(7,14)
+# c = 2 * x * r
 
-print(c)
+# print(c)
 
 
+print("what is your name")
+name = input()
+print("how old are you?")
+age = int(input())
+
+print(f'Hello {name}, your age is {age}')
