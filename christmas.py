@@ -1,12 +1,6 @@
-a = 15
-b = 10
-c = 20
-d = 2
+weight = float(input("Enter your weight: "))
+height = float(input("Enter your height: "))
 
-balance = c - b
-profit = c - a
-total = a + b + c
-metres_squared = a ** 2
+bmi = "Your BMI is" + " ", (weight/height ** 2)
 
-print(balance, profit, total, metres_squared)
-print("Your balance is" + ' ',balance)
+print(bmi)
