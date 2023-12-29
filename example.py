@@ -24,6 +24,6 @@
 print("what is your name")
 name = input()
 print("how old are you?")
-age = int(input())
+age = int(input()) 
 
 print(f'Hello {name}, your age is {age}')
